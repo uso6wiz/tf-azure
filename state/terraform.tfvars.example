@@ -1,0 +1,6 @@
+subscription_id       = "your-azure-subscription-id"
+# resource_group_name  = "existing-rg-name"  # 既存 RG を使う場合。null の場合は新規作成
+location              = "japaneast"
+github_org_repo       = "myorg/tf-azure"
+github_branch         = "main"
+# github_environment   = "production"  # 任意
