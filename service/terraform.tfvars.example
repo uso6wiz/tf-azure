@@ -1,0 +1,8 @@
+subscription_id         = "your-azure-subscription-id"
+location                = "japaneast"
+prefix                  = "wiz-dev"
+vm_size                 = "Standard_B1s"
+admin_username          = "azureuser"
+# resource_group_name   = "rg-wiz-dev-web-jpe1" # 任意。未指定時は prefix と location から自動生成
+# ssh_public_key        = "ssh-rsa AAAA..."    # 任意。未指定時は Terraform が鍵ペアを自動生成
+# allowed_ssh_cidr_blocks = ["203.0.113.0/24"]  # 任意。未指定時は "0.0.0.0/0"
